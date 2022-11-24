@@ -148,7 +148,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 
 .section {
-	padding:100px 0 70px;
+	padding:30px 0 20px;
 	position:relative;
 }
 
@@ -158,7 +158,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 
 .title-box {
 	border-bottom-width: 0px;
-	margin-bottom: 75px;
+	margin-bottom: 30px;
 	position: relative;
 }
 
@@ -234,8 +234,9 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	text-align:center;
 }
 
+
 .overlay {
-	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
+	background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") ;
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -983,7 +984,7 @@ html[xmlns] .slides {
 /*-----------------------------------------------------------------*/
 
  .features-icon-box {
-	margin-bottom:50px;
+	margin-bottom:10px;
 }
 
 .features-icon-box .features-icon {
@@ -992,7 +993,7 @@ html[xmlns] .slides {
 	height: 60px;
 	line-height: 41px;
 	font-size: 45px;
-	color:#7EC13F;
+	color:darkblue;
 }
 
 .features-icon-box .features-info {
@@ -1006,7 +1007,7 @@ html[xmlns] .slides {
 
 #facts {
 	background:url(../images/parallax/facts.jpg) no-repeat;
-	padding: 150px 0px 100px;
+	padding: 30px 0px 30px;
 }
 
 .facts-box {
@@ -1071,7 +1072,9 @@ html[xmlns] .slides {
 	margin-bottom: 0px;
 }
 
-.content-tab-1 > .nav > li.active > a > h4, .content-tab-1 > .nav > li.active > a > i {
+
+
+ > a > h4, .content-tab-1 > .nav > li.active > a > i {
     color: #FFF;
 }
 
@@ -1081,7 +1084,7 @@ html[xmlns] .slides {
 }
 
 .tab-content-main {
-	padding: 70px 0px 0px;
+	padding: 20px 0px 0px;
 }
 
 .tab-content-main img {
@@ -1090,13 +1093,13 @@ html[xmlns] .slides {
 }
 
 .tab1-features {
-	margin-bottom:30px;
+	margin-bottom:5px;
 }
 
 .tab1-features .icon {
 	position: absolute;
 	width: 40px;
-	height: 40px;
+	height: 25px;
 	background: #7EC13F ;
 	color: #FFF;
 	text-align: center;
@@ -1130,8 +1133,8 @@ html[xmlns] .slides {
 
 .tab-carousel.owl-theme .owl-controls .owl-buttons div {
 	display: block;
-	width: 30px;
-	height: 30px;
+	width: 15px;
+	height: 15px;
 	line-height:20px;
 	font-size:20px;
 	border-radius:0;
@@ -1161,12 +1164,12 @@ html[xmlns] .slides {
 }
 
 .tab2-services-box {
-	margin-bottom: 30px;
-	padding: 15px;
+	margin-bottom: 10px;
+	padding: 08px;
 	border: 1px solid #E1DDDD;
 }
 .tab2-services-box .media {
-	margin-bottom:30px;
+	margin-bottom:15px;
 }
 
 .tab2-services-box .services-info h4 {
@@ -1177,30 +1180,30 @@ html[xmlns] .slides {
 }
 
 .features-tab3 {
-	margin-top: 20px;
+	margin-top: 10px;
 	display: inline-block;
 }
 
 .features-tab3 .features-left, .features-tab3 .features-right {
-	padding-top: 20px;
+	padding-top: 80px;
 }
 
 .features-tab3 .features-left h4, .features-tab3 .features-right h4, .features-tab3 .features-left p, .features-tab3 .features-right p {
-	line-height: 25px;
+	line-height: 20px;
 }
 
 .features-tab3 .features-left .features-item, .features-tab3 .features-right .features-item {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .features-tab3 .features-left .features-icon, .features-tab3 .features-right .features-icon {
 	width: 55px;
-	height: 55px;
-	line-height: 55px;
+	height: 50px;
+	line-height: 45px;
 	text-align: center;
 	color: #7EC13F;
 	font-size: 22px;
-	font-weight: 600;
+	font-weight: 500;
 	border: 1px solid #7EC13F;
 	position: relative;
 	border-radius: 28px;
@@ -1495,7 +1498,8 @@ ul.timeline {
 .work-main {
 	width:100%;
 	clear: both;
-	margin-top: 60px;
+	margin-top: 8px;
+  margin-bottom: 12px;
 	display: inline-block;
 }
 
@@ -1591,13 +1595,13 @@ ul.timeline {
 
 #cta {
 	background:url(../images/parallax/cta.jpg) no-repeat;
-	padding:130px 0px 130px;
+	padding:20px 0px 5px;
 }
 
 #cta h2 {
     color: #FFF;
     font-size: 33px;
-    margin-bottom: 36px;
+    margin-bottom: 15px;
     font-weight: 600;
     text-shadow: 0px 0px 2px #1B1A1A;
 }
@@ -1613,7 +1617,7 @@ ul.timeline {
 
 
 #team {
-	padding:100px 0px 130px;
+	padding:25px 0px 20px;
 	background: #FFF;
 }
 
@@ -1930,11 +1934,11 @@ ul.timeline {
 }
 
 .video-caption-main {
-	margin-bottom:30px;
+	margin-bottom:15px;
 }
 
 .video-caption {
-	margin-bottom:30px;
+	margin-bottom:23px;
 	color: #E7E7E7;
 }
 
@@ -2043,7 +2047,7 @@ ul.timeline {
 #testimonials {
 	color:#fff;
 	position:relative;
-	padding:100px 0px;
+	padding:35px 0px;
 }
 
 #testimonials .container {
@@ -2803,11 +2807,11 @@ li.comment ol.comment-sub {
 
 .contact-form {
 	display: block;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 5px 0px;
 }
 
 .contact-info {
-	margin-bottom:65px;
+	margin-bottom:25px;
 }
 
 .contact-info p {
@@ -2818,7 +2822,7 @@ li.comment ol.comment-sub {
 }
 
 footer {
-	padding: 17px 0px 10px;
+	padding: 1px 0px 3px;
 	background: #1C1C1C;
 }
 
@@ -2893,7 +2897,7 @@ footer {
  @media (max-width: 550px) {
 
 .thumnail-img {
-	width:100%;
+	width:25%;
 }
 
 }
